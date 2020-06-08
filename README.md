@@ -1,2 +1,2 @@
-# -Tindog
+# Tindog
 Website with Bootstrap
