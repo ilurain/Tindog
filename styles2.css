@@ -1,0 +1,166 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation-bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Bad Script', cursive;
+}
+
+/* Download-Button */
+.Download-Button {
+  margin: 10% 3% 10% 0;
+}
+
+/* title-img */
+.title-img {
+  width: 60%;
+  /* title-img-rotation */
+  transform: rotate(25deg);
+  /* to hide title img behind the features section */
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  /* to hide title img behind the features section */
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.features-icon {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #4cffe3;
+}
+
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing-section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+/* CTA section */
+#cta{background-color: #ff4c68;
+     color:#fff;
+   padding: 7% 15%;
+  text-align: center;}
+.cta-heading{
+  font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+text-align: center;
+}
+/* Download-Button */
+.Download-Button-2{
+  margin: 7% 3% 7% 0;
+}
+  /* Footer section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media(max-width:1028px) {
+#title{text-align: center;}
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+
+
+
+
+
+
+/* End :)*/
